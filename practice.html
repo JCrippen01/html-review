@@ -1,0 +1,395 @@
+<html>
+  <head>
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1 id="top">Justin</h1>
+    <h2>That's me!</h2>
+    <p>I want to finish 30 chapters today. Will I make it? I still need to go to the gym. The dogs have finally settled down so thats good.</p>
+    <p class="important">Warning: We have no slow lorises here. will be on and-a-half times "normal" text size.</p>
+    <h2 class="typewriter">This heading is in typewriter text.</h2>
+    <p class="typewriter">So is this <i>paragraph</i>. Here is another way to <em>italicize.</em> <b>This is bold.</b> <strong>So am I, but I will be read with a lower voice.</strong></strong></p>
+    <p> <span class="emphasized"> This is using span+class to italicize this text</span></p>
+    <p> <span class="standout">This is red</span> This is not.</p>
+    <p class="standout">This will be red. <em>Will this? Yes, but also italics.</em></p>
+    <h2 class="spacing">Example 1 of letter spacing.</h2>
+    <h2 class="spacing-two">Example 2 of letter spacing.</h2>
+    <h2 class="word-space">Example 1 of word-spacing</h2>
+    <p class="line-height">Here is line height for readablity.</p>
+    <h2 class="left">Text alignment left</h2>
+    <h2 class="right">Text alignment right</h2>
+    <h2 class="center">Text Alignment center</h2>
+    <h3>Here is a centered Header</h3>
+    <p class="justified">This is a justified paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="indent">This is indented. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p><blockquote>This is a blockquote: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote></p>
+    <p class="margin">This is the example of margins. Margin starts at top and moves clockwise. You can set margins individually or as a group.</p>
+    <div class="border">
+        <p>This is a border. You can choose 8 border syles. Always state the specs in this order: width, style, color. There's a space between them, but no comma. You can also specify the the sides to add a border: Top, right, bottom, left.</p>
+            <ul>
+                <li>dotted</li>
+                <li>dashed</li>
+                <li>solid</li>
+                <li>double</li>
+                <li>groove</li>
+                <li>ridge</li>
+                <li>inset</li>
+                <li>outset</li>
+            </ul>
+        <p>I have also adding padding to this. "White space between text and border."</p>
+    </div>
+    <div>
+        <h2>Notes about Inheritance:</h2>
+        <p>The "<_body_>" is the highest level of parent on a website. If that is adjusted in CSS, then all other "childrens numbers will be based on that." i.e If size on the body tag is set to 1em, and I want
+            to change a div, I will over write with the knowledge that I am increaseing or decreasing size based on the number set in body css. Chapter 19.
+        </p>
+    </div>
+    <h4 class="group">This is a grouped class</h4>
+    <p class="group">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p id="ids">An ID can only be assined once, where a class can be assined many times. Use this for items that should never change.</p>
+    <div id="main">
+        <h2>This is a Div</h2>
+        <p>It is used to divide the page up.</p>
+        <p>This one uses an id.</p>
+    </div>
+    <div>
+        <h2>Image Notes:</h2>
+        <h3>File types and uses</h3>
+        <ul>
+            <li>jpg- Should be used with photographs and for llustrations with many subtle colors.</li>
+            <li>gif- Offers transparency, meaning that the background color can show through wherever you want it to. This should be rarely used.</li>
+            <li>png- has the same features as a GIF, but with no animations. Higher quality than GIF, and smaller file size as well.</li>
+        </ul>
+        <p>img src stands for image source, tells browser where to find the image. No closing tag</p>
+        <img src="images/Jefe1.jpg" class="img">
+    </div>
+    <div>
+        <h2>Chapter 24 Block vs Inline</h2>
+        <h3>Examples of Block Elements:</h3>
+        <ul>
+            <li>headings</li>
+            <li>paragraphs</li>
+            <li>lists</li>
+            <li>tables</li>
+            <li>divs</li>
+        </ul>
+        <p>Block Items can be put side by side. To do this you have to use a special styling called a "float."></p>
+        <p>This will make the divs stack like two columns</p>
+        <h3> Inline:</h3>
+        <p>Inline elements do not start a new line.</p>
+            <ul>
+                <li>a href</li>
+                <li>img src</li>
+                <li>Can convert to block in css</li>
+            </ul>
+        <img src="images/diggeebee.jpg" class="has-own-line inset">
+        <img src="images/diggeebee.jpg" class="has-own-line inset">
+    </div>
+    <div>
+        <h3>A more specific img tag.</h3>
+        <img src="images/Jefe1.jpg" alt="el jefe" width="100" height="100">
+    </div>
+<div>
+    <img src="images/Jefe1.jpg" class="eljefe">
+</div>
+<div>
+    <h3>Float left</h3>
+    <img src="images/Jefe1.jpg" class="eljefe floatl" alt="El Jefe Float">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p class="no-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</div>
+    <h3>Float right</h3>
+    <img src="images/Jefe1.jpg" class="eljefe floatr" alt="El Jefe Float">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<div>
+    <h3>Chapter 29 Anchor Tags</h3>
+    <a href="http://www.stackoverflow.com">Stack Overflow</a>
+</div>
+<div>
+    <h3>Chapter 30 Anchor Tags and link adresses</h3>
+    <p>When linking to a local site, I do not need the domain name. The browser understands its local. To go up a level in the directory "../" This must be done for every level up you wish to go.</p>
+    <p>Here is a link to a Smarter Ways Why exercises.<a href="http://asmarterwaytolearn.com/why-exercises.html">Why Pages</a></p>
+    <button><a href="#top">Go to Top</a></button>
+</div>
+<div>
+    <h3>Opening a new window</h3>
+    <a href="http://www.stackoverflow.com" target="_blank">Stack Overflow</a>
+</div>
+<div>
+    <p id="openWindow"><a href="info.html">Some JavaScript</a></p>
+    <script>
+        doument.getElementById("openWindow").onclick = openWindow;
+        function openWindow() {
+            var window = window.open("info.html", "", "width=200,height=300, left=300, top=400");
+       }
+    </script>
+</div>
+<div>
+    <h3>Change link color</h3>
+    <a class="red" href="https://www.stackoverflow.com">Stack Overflow.</a>
+</div>
+<div>
+    <h3>Chapter 34 linking images.</h3>
+    <a href="https://www.stackoverflow.com" target="_blank"><img class="eljefe" src="images/stackoverflow.png"></a>
+</div>
+<div>
+    <h3>Chapter 35 Image Maps</h3>
+    <img src="https://asmarterwaytolearn.com/stooges.jpg" alt="Three Stooges" usemap="#stooges">
+    <map name="stooges">
+        <area shape="circle" alt="Moe." coords="56,56,47" href="https://en.wikipedia.org/wiki/Moe_Howard">
+        <area shape="circle" alt="Curly." coords="126,93,31" href="https://en.wikipedia.org/wiki/Curly_Howard">
+        <area shape="circle" alt="Larry." coords="208,66,39" href="https://en.wikipedia.org/wiki/Larry_Fine">
+    </map>
+</div>
+<div>
+    <h3>Chapter 37 Bullet Lists and Numbered Lists</h3>
+    <h4>Unordered list.</h4>
+    <ul>
+        <li>Tacos</li>
+        <li>Pizza</li>
+        <li>Pho</li>
+    </ul>
+    <h4>Ordered List.</h4>
+    <ol>
+        <li>Wash</li>
+        <li>Rinse</li>
+        <li>Repeat</li>
+    </ol>
+    <h4>Roman Numbers</h4>
+    <ol class="roman">
+        <li>Julius Ceasar</li>
+        <li>Tiberius</li>
+        <li>Marcus Arelious.</li>
+    </ol>
+</div>
+<div>
+    <h3>Tables Chapter 41,42,43,44</h3>
+    <table>
+        <tr>
+            <th scope="row"></th>
+            <th scope="col">Golden's</th>
+            <th scope="col">Pointers</th>
+            
+        </tr>
+        <tr>
+            <th scope="row">Name</th>
+            <td>Kenji</td>
+            <td>Digby</td>
+        </tr>
+        <tr>
+            <th scope="row">Name</th>
+            <td>Jefe</td>
+            <td>Chili</td>
+        </tr>
+        <tr>
+            <th scope="row">Name</th>
+            <td>Juju</td>
+            <td>Sancho</td>
+        </tr>
+    </table><br>
+    <table>
+        <table>
+            <tr>
+                <th class="top-row" scope="row"></th>
+                <th class="top-row" scope="col">1pm</th>
+                <th class="top-row" scope="col">2pm</th>
+                <th class="top-row" scope="col">3pm</th>
+            </tr>
+            <tr>
+                <th scope="row">Gym</th>
+                <td>Dodge Ball</td>
+                <td>Kick Boxing</td>
+                <td>Sack Racing</td>
+            </tr>
+            
+            <tr>
+                <th scope="row">Exercise Room</th>
+                <td>Spinning</td>
+                <td colspan="2">Yoga Marathon</td>
+            </tr>
+            <tr>
+                <th scope="row">Pool</th>
+                <td colspan="3">Water Polo</td>
+            </tr>
+        </table><br>
+        <table>
+            <tr>
+                <th scope="row"></th>
+                <th scope="col">Gym</th>
+                <th scope="col">Exercise Room</th>
+                <th scope="col">Pool</th>
+            </tr>
+            <tr>
+                <th scope="row">1pm</th>
+                <td>Dodge Ball</td>
+                <td>Spinning</td>
+                <td rowspan="3">Water Polo</td>
+            </tr>
+            
+            <tr class="even-row">
+                <th class="even-row" scope="row">2pm</th>
+                <td>Kick Boxing</td>
+                <td colspan="2">Yoga Marathon</td>
+            </tr>
+            <tr>
+                <th scope="col">3pm</th>
+                <td colspan="3">Sack Racing</td>
+            </tr>
+        </table>
+        <h4> Table with Header, body, Footer </h4>
+        <table>
+            <thread>
+                <tr>
+                    <th></th>
+                    <th>Gym</th>
+                    <th>Exercise Room</th>
+                    <th>Pool</th>
+                </tr>
+            </thread>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>3 activities</th>
+                    <th>2 activities</th>
+                    <th>1 activity</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th scope="row">1pm</th>
+                    <td>Dodge Ball</td>
+                    <td>Spinning</td>
+                    <td rowspan="3">Water Polo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2pm</th>
+                    <td>Kick Boxing</td>
+                    <td rowspan="3">Yoga Marathon</td>
+                </tr>
+                <tr>
+                    <th scope="row">3pm</th>
+                    <td>Sack Racing</td>
+                </tr>
+            </tbody>
+
+        </table>
+</div><br>
+<div>
+    <table>
+        <tr class="small">
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wenesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr class="small">
+            <td>Rome</td>
+            <td>Addis Ababa</td>
+            <td>Cairo</td>
+            <td>Saing Seabury</td>
+            <td>Dublin</td>
+            <td>Zermatt</td>
+            <td>Play Del Carmen</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <h3>Chapter 49,50,51,52,53 Forms</h3>
+    <form action="send-email.php" method="post">
+        Last Name:
+        <label><input type="text" name="surname" size="25" maxlength="40"><br></label>
+        Password: 
+        <label><input type="password" name="pass" size="25" maxlength="40"></label>
+    </form><br>
+    <form action="send-email.php" method="post">
+        Last Name:
+        <br>
+        <label><input type="text" name="surname" size="25" maxlength="40">
+        <br><br>
+        <h4>How did you find us?</h4>
+        <label><input type="radio" name="found-through" size="25" value="Ask Jeeves">Ask Jeeves</label>
+        <label><input type="radio" name="found-through" size="25" value="Lycos" >Lycos</label>
+        <br><br>
+        <label><input type="checkbox" name="review" size="25" value="Wonderful" checked="checked">Wonderful</label>
+        <label><input type="checkbox" name="review" size="25" value="Fabulous">Fabulous</label>
+        <label><input type="checkbox" name="review" size="25" value="Brilliant">Brilliant</label>
+        <br><br>
+        <form action="/action_page.php">
+            <label for="state">Select your state:</label>
+            <select id="states" name="state">
+              <option value="select">select</option>  
+              <option value="TN">Tennesee</option>
+              <option value="IA">Iowa</option>
+              <option value="MT">Montana</option>
+              <option value="WY">Wyoming</option>
+            </select>
+        <br><br>
+        Message:
+        <br>
+        <textarea name="message" rows="4" cols="30"></textarea>
+        <br><br>
+        <label><input type="submit" value="Send Email Message"></label>
+    </form>   
+</div>
+<div>
+    <h3>From Control Chapter 57</h3>
+    <form action="questionnaire.php" method="post">
+        <fieldset>
+        <legend>Contact Info</legend>
+        <label>First Name: <input type="text" name="first-name" size="15" maxlength="30"></label><br>
+        <label>Last Name: <input type="text" name="last-name" size="15" maxlength="30"></label><br>
+        <label>Email: <input type="text" name="email" size="15" maxlength="30"></label><br><br>
+        <label><input type="submit" value="Ship it!"></label>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Questions</legend>
+            <label>What is the meaning of life?<br> <textarea name="meaning" rows="4" cols="40"></textarea></label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Pizza</legend>
+            What do you want on your pizza?<br>
+            <label><input type="checkbox" name="topping">Sausage</label>
+            <label><input type="checkbox" name="topping">Pepperoni</label>
+            <label><input type="checkbox" name="topping">Mushrooms</label>
+        </fieldset>
+    </form>
+</div>
+<div>
+    <h3> Types of Comments</h3>
+    <!-- This is a comment-->
+    
+</div>
+<div>
+    <h3> Building boxes and html layouts.</h3>
+    <fieldset class="body">
+        <legend>Body</legend>     
+            <fieldset class="header">
+                <legend>Header</legend>
+            </fieldset>
+            <fieldset class="nav-bar">
+                <legend>Navigation Bar</legend>
+            </fieldset>
+            <fieldset class="main">
+                <legend>Main</legend>
+                    <Fieldset class="content">
+                        <Legend>Content</Legend>
+                    </Fieldset>
+                    <fieldset class="sidebar">
+                        <legend>Sidebar</legend>
+                    </fieldset>
+            </fieldset>
+            <fieldset class="footer">
+                <legend>Footer</legend>
+            </fieldset>
+
+    </fieldset>
+</div>
+</body>
+</html>
+<!-- Notes:
+Difference between <em> and <i> is how a screen reader interprets them. <em> will get the emphasised read out.-->

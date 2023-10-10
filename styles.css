@@ -1,0 +1,227 @@
+blockquote {
+    font-size: -.05em;
+    color: darkslategray;
+}
+p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+p.important {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+p.standout {
+    font-style: italic;
+}
+p.line-height {
+    line-height: 2em;
+}
+p.justified {
+    text-align: justify;
+}
+p.indent {
+    text-indent: 1em;
+}
+p.margin {
+    margin: 2em 4em 2em 4em;
+}
+.border {
+    border: 5px solid red;
+    padding: 1em;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+}
+h2.spacing {
+    letter-spacing: .1em; 
+}
+h2.spacing-two {
+    letter-spacing: -.05em;
+}
+h2.word-space {
+    word-spacing: 1em;
+}
+h3 {
+    text-align: center;
+}
+h3.bigger {
+    font-size: 1.5em;
+}
+h4.special {
+    font-style: italic;
+}
+.emphasized {
+    font-style: italic;
+}
+.typewriter {
+    font-family: "Courier New", Courier, monospace;
+}
+.standout {
+    color: red;
+}
+/* Grouping */
+/* h1, h3, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ */
+ h4.group, p.group {
+    text-align: center
+ }
+ p#ids {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: darkblue;
+ }
+ div#main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 0em 3em 0em 3em;
+ }
+ .img {
+    width: 400;
+    height: 400px;
+ }
+ /* How to convert inline to block */
+ img.has-own-line {
+    display: block;
+    width: 150;
+    height: 150px;
+ }
+ img.inset {
+    margin-left: 20em;
+ }
+ img.eljefe {
+    display: block;
+    width: 150;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ img.floatr {
+    float: right;
+    margin: 0 0 .5em .75em;
+ }
+ img.floatl {
+    float:left;
+    margin: 0 .75em .5em 0;
+ }
+ a.red {
+    color: red;
+ }
+ a:hover {
+    font-weight: bold;
+    text-decoration: none;
+ }
+ a:active {
+    font-size: 1.25em;
+ }
+ a:visited {
+    color: deeppink;
+ }
+ /* WHEN using float you may need to use clear to stop wrapping. */
+ p.no-wrap {
+    clear:both
+ }
+ ul {
+    list-style-position: inside;
+    margin: 0 1.5em 0 1.5em;
+    list-style-type: square;
+ }
+
+ ol.special {
+    margin: 0 1.5em 0 1.5em;
+ }
+ li {
+    margin: .75em;
+ }
+ ol.roman {
+    list-style-type: lower-roman;
+ }
+ div#main p {
+    font-size: 2em;
+ }
+
+ th, td {
+    border: 1px solid black;
+    padding: 1em;
+    
+ }
+ table {
+    border-collapse: collapse;
+    text-align: left;
+ }
+ th.top-row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+ }
+ tr.small {
+    border: 1px;
+    padding: 5px;
+    width: 20%;
+    font-weight: 200;
+ }
+ th.even-row, tr.even-row {
+    background-color: lightgray;
+ }
+ form {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1em;
+ }
+ input[type="submit"] {
+    margin-bottom: .25em;
+    padding: .25em;
+    font-size:  1.25em;
+ }
+ legend {
+    font-weight: 700;
+ }
+ .body {
+   width: 40em;
+ }
+.header {
+   height: 2em;
+   width: 40em;
+}
+.footer {
+   height: 2em;
+   width: 40em;
+}
+.nav-bar {
+   height: 2em;
+   width: 40em;
+}
+.main {
+   height: 14em;
+   width: 40em;
+}
+.content {
+   display: inline;
+   padding: 1em 2em 1em 1em;
+   height: 10em;
+   width: 20em;
+}
+.sidebar {
+   display: inline;
+   padding: 1em 1em 1em 4em;
+   height: 10em;
+   width: 10em;
+}
+.next-to {
+   display: inline;
+}
+ /*this is a multi line comment in CSS */
+/* Notes:
+Naming convention set by Author.
+    1. 
+em= * default size. i.e 1.2em = 1.2*default size.
+1em will give you default size.
+
+font-weight: 100-900. 900 is the boldest.
+you can also use lighter, normal, bold, and bolder.
+
+*/
