@@ -214,6 +214,28 @@ h4.special {
 .next-to {
    display: inline;
 }
+.inset {
+   width: 20%;
+   margin: 0 auto 0 auto;
+}
+.more-inset {
+   width: 20%;
+   margin: 0 auto 0 auto;
+}
+div#main-content1 {
+   border: .50em solid black;
+   width: 90%
+}
+.content-practice {
+   border: .25em solid black;
+   float: left;
+   width: 68%
+}
+.side-practice {
+   border: .25em solid black;
+   float: right;
+   width: 29%;
+}
  /*this is a multi line comment in CSS */
 /* Notes:
 Naming convention set by Author.

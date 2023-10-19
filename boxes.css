@@ -1,0 +1,52 @@
+div#main {
+    
+}
+div#header {
+    width:  100%;
+    background-color: #990000;
+    position: fixed;
+    left:  0;
+    top: 0;
+}
+div#header h2, div#invisible-header h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align:  center;
+    font-weight: 900;
+    color:  white;
+    font-size: 2em;
+    margin-left: 2%;
+    padding: 0;
+}
+div#invisible-header {
+    width:  100%;
+    visibility: hidden;
+}
+div#header img, div#invisible-img {
+    float:  left;
+    margin:  1em;
+}
+p.clearFloat{
+    clear: both;
+}
+div#content {
+    float:  left;
+    width:  68%;
+}
+div#side-bar {
+    float:  right;
+    width: 29%;
+}
+div#footer {
+    background-color: #990000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:  0;
+}
+div#footer h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  1em;
+    color:  white;
+    text-align: center
+
+}
