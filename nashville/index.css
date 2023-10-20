@@ -1,16 +1,108 @@
 div#banner {
    width: 100%;
-   position:  fixed;
+   position: relative;
    top: 0;
    left: 0;
    background-color: black;
+   height: 6em;
 }
-div#navbar h2 {
+div#banner img, div#invisible-banner img{
+    width: 7em;
+    position: absolute;
+    height: 5em;
+    float:  left;
+    margin: .5em .5em .5em .5em;
+    top: 0;
+    left: 0;
+}
+div#invisible-banner {
+    width:  100%;
+    visibility: hidden;
+}
+
+div#banner h2, div#invsible-banner h2 {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
-    background-color: black;
-    padding: 0;
+    margin-left: 2%;
+    padding: 1em;
+}
+div#navbar {
+    width: 100%
+}
+div#navbar ul {
     list-style-type: none;
-    top: 
+}
+div#navbar ul li a {
+    font-family: Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+}
+div#navbar ul li {
+    background-color: blue;
+    text-align: center;
+    display: block;
+    width: 24%;
+    float: left;
+    margin: .50em .50em .50em 3em;
+    padding: .50em;
+}
+li.changeBackground {
+    background-color: blue;
+}
+li.changeBackground:hover {
+    background-color: lightblue;
+}
+li.changeBackground:active {
+    background-color: darkblue;
+}
+div#main-container {
+    width: 100%;
+}
+div#main-content {
+    float: left;
+    width: 66%;
+}
+div#main-content h3 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+div#sidebar {
+    float: right;
+    width: 30%
+}
+div#footer {
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    height: 4em;
+}
+div#footer ul {
+    list-style-type: none;
+}
+div#footer ul li {
+    text-align: center;
+    display:  block;
+    float: left;
+    margin: .50em .50em .50em 3em;
+    padding: .50em;
+    
+}
+div#footer ul li a {
+    font-family: Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+    display: inline;
     
 }
