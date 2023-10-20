@@ -1,3 +1,9 @@
+body {
+    background-image: url(images/golden1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+}
 div#navbar {
     clear:  both;
     width:  100%;
@@ -30,4 +36,8 @@ li.changeBackground:hover {
 }
 li.changebackground:active {
     background-color: darkblue;
+}
+div#main {
+    background-image: url("images/golden1.jpg");
+    background-repeat: repeat-x;
 }
